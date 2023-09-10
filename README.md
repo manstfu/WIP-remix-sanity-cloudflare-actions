@@ -1,4 +1,4 @@
-# Sanity Studio + Remix + Cloudflare Pages + Github Actions
+# Sanity Studio v3 + Remix + Cloudflare Pages + Github Actions
 
 Embedded Studio
 
