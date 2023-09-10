@@ -15,12 +15,13 @@ type ProjectDetails = {
 }
 
 export const projectDetails = (): ProjectDetails => {
-  const {SANITY_PROJECT_ID, SANITY_DATASET, SANITY_API_VERSION} =
-    typeof document === 'undefined' ? process.env : window.ENV
+  // const {SANITY_PROJECT_ID, SANITY_DATASET, SANITY_API_VERSION} =
+  //   typeof document === 'undefined' ? process.env : window.ENV
+  const {SANITY_PROJECT_ID, SANITY_DATASET, SANITY_API_VERSION} = window.ENV
 
   return {
-    projectId: SANITY_PROJECT_ID ?? `pnkijp0b`,
-    dataset: SANITY_DATASET ?? `remix`,
-    apiVersion: SANITY_API_VERSION ?? `2022-09-19`,
+    projectId: SANITY_PROJECT_ID ?? `618ye1pb`,
+    dataset: SANITY_DATASET ?? `production`,
+    apiVersion: SANITY_API_VERSION ?? `2023-10-09`,
   }
 }
