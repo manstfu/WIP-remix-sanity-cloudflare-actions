@@ -5,6 +5,7 @@ Embedded Studio
 Access to Sanity Studio v3 from within the Remix application itself. Now the whole Studio is a component, it lives at the /studio route
 # Inspiration
 https://github.com/meetdave3/sanity-studio-cloudflare-deploy
+
 https://github.com/SimeonGriggs/sanity-remix-template
 
 # Required
